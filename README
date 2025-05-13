@@ -1,0 +1,22 @@
+This is a README for my Linux Basic Socket regarding echo_s, echo_c, and log_s
+
+To Compile:
+- Simply run the command: make (The make file titled "Makefile" will compile everything
+- If needed you can easily delete everything by running the command: make clean (deletes all .o modules, executables, and the log file)
+To run:
+
+For logger log_s:
+- You can choose to run in the background using: ./leg_s & (This will allow you to use this terminal to view the echo.log after the next steps) 
+- Or just run in the foreground (No & after the script execution statement) --> Please use a separate window
+
+For echo_s
+- Open another terminal window and execute ./echo_s <port> [<port2> <port3>]
+- A message will output saying that the server has started up
+- To exit CTRL-Z, and you can kill after viewing jobs
+
+For echo_c
+- Open another terminal window and execute ./echo_c 127.0.0.1 <port> [<port2> <port3>] <Connection Type>  "Message Encased in Quotes"
+- Type either 'tcp' or 'udp' for the connection Type
+- Once the program starts you can type your message
+
+To Check if the echo.log captured the output just do cat echo.log
