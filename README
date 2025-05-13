@@ -1,5 +1,12 @@
 This is a README for my Linux Basic Socket regarding echo_s, echo_c, and log_s
 
+This mini-project showcases my knowledge on Networking & Sockets within a Linux environment
+- It connects a client and a server uilizing a socket
+- Allows for both TCP & UDP 
+- The client is able to input data
+- Multiple clients may input at once, so long as the ports are not full
+- The logger will write all entries to a logfile
+
 To Compile:
 - Simply run the command: make (The make file titled "Makefile" will compile everything
 - If needed you can easily delete everything by running the command: make clean (deletes all .o modules, executables, and the log file)
